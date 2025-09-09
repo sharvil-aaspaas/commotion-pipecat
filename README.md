@@ -88,7 +88,13 @@ Transform your local bot into a production-ready service. Pipecat Cloud handles 
      docker login
      ```
 
-3. The `pipecatcloud` CLI—installed with the quickstart project—is used to manage your deployment and secrets. We'll use it as `pcc` below.
+3. Log in with the `pipecatcloud` CLI—installed with the quickstart project—is used to manage your deployment and secrets.
+
+   ```bash
+   uv run pcc auth login
+   ```
+
+   > Tip: Use the CLI with the `pcc` command alias.
 
 ### Configure your deployment
 
